@@ -20,7 +20,7 @@ This project demonstrates **responsible use of LLMs** in a **high-risk medical d
 ---
 
 ## 🧠 System Architecture
-'''
+
 User Query
 ↓
 Emergency Check (Hard Bypass)
@@ -33,7 +33,7 @@ Intent Router
 │ ├── Malaria → Malaria Retriever → RAG
 │ └── General Fever → Fever Retriever → RAG
 └── Emergency → Safety Message (No LLM)
-'''
+
 ---
 
 ## 📂 Knowledge Sources
